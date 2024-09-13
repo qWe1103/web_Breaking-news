@@ -107,7 +107,7 @@ $(function() {
                     return layer.msg('文章发表失败！')
                 }
                 layer.msg('文章发表成功！');
-                // 发布文章成功后，跳转到文章列表页面
+                // 发布文章成功后，跳转到文章列表页面git 
                 location.href = '/article/art_list.html';
             }
         })
